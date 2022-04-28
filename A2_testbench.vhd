@@ -91,7 +91,7 @@ begin
     B1_i <= '0';
     B0_i <= '1';
     wait for 1 ns;
-    assert(A_o='0' and B_o='0' and C_o='0' and D_o='1' and E_o='1' and F_o='0' and G_o='0') report "Fail 9/16" severity error;
+    assert(A_o='0' and B_o='0' and C_o='0' and D_o='0' and E_o='1' and F_o='0' and G_o='0') report "Fail 9/16" severity error;
     
     B3_i <= '1';
     B2_i <= '0';
