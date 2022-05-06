@@ -1,0 +1,4 @@
+LUT: 34
+Flip Flop: 48 + 16 latches
+BRAM: 0
+DSP: 0
